@@ -215,4 +215,33 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
-@media screen and {max-width: 980px}
+/*------- Large Screen -----*/
+@media only screen
+and (max-width: 980px)
+    (min-width: 768px) {
+  /*Styles*/
+}
+
+/*------- Medium Screen -----*/
+@media only screen 
+and (max-width: 768px)
+    (min-with: 640px)
+{
+  /*Styles*/
+}
+
+/*------ Small Screen -----*/
+@media only screen
+and (max-width: 640px)
+    (min-width: 0px)
+{
+
+}
+
+/*------ Fixed Header ----*/
+@media (max-width: 640px) {
+#masthead {
+   position:fixed
+}
+
+}
