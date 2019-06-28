@@ -224,24 +224,24 @@ and (max-width: 980px)
 
 /*------- Medium Screen -----*/
 @media only screen 
-and (max-width: 768px)
-    (min-with: 640px)
+and (max-width: 767px)
+    (min-width: 640px)
 {
   /*Styles*/
 }
 
 /*------ Small Screen -----*/
 @media only screen
-and (max-width: 640px)
+and (max-width: 639px)
     (min-width: 0px)
 {
-
+  /*Style*/
 }
 
 /*------ Fixed Header ----*/
 @media (max-width: 640px) {
 #masthead {
-   position:fixed
+   position:static;
 }
-
+  /*Header*/
 }
